@@ -2,7 +2,8 @@
 	"name": "directus-extension-upsert-item",
 	"description": "Upsert item extension for Directus",
 	"icon": "extension",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"license": "MIT",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -25,8 +26,8 @@
 		"validate": "directus-extension validate"
 	},
 	"devDependencies": {
-		"@directus/extensions-sdk": "16.0.1",
-		"@types/node": "^24.3.1",
-		"typescript": "^5.9.2"
+		"@directus/extensions-sdk": "17.0.2",
+		"@types/node": "^24.10.1",
+		"typescript": "^5.9.3"
 	}
 }
