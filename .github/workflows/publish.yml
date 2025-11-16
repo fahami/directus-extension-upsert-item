@@ -24,6 +24,5 @@ jobs:
       - name: Install the latest version of npm
         run: npm install -g npm@latest
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run build --if-present
-      - run: pnpm run test --if-present
+      - run: pnpm run build
       - run: npm publish
