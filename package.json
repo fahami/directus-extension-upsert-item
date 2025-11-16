@@ -9,6 +9,10 @@
 		"directus-extension",
 		"directus-extension-endpoint"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fahami/directus-extension-upsert-item"
+	},
 	"type": "module",
 	"files": [
 		"dist"
